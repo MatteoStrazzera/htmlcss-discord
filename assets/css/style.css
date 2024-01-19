@@ -7,7 +7,7 @@
 }
 
 :root {
-    --discord-primary: rgba(48, 97, 225, 1);
+    --discord-primary: rgba(49, 97, 225, 1);
     --discord-light: rgba(246, 246, 246, 1);
     --discord-lighter: white;
     --discord-dark: rgba(34, 39, 43, 1);
@@ -78,20 +78,51 @@ li {
 
 /* #region Main */
 
-/* #region First_Sec */
+/* #region Jumbo */
 
-#first_section {
-    background-color: aquamarine;
+.jumbo{
+    background-image: url(../img/jumbo.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
 }
 
-#first_flex_item {
-    background-color: brown;
-    height: fit-content;
-    width: 400px;
-    height: 250px;
+.small-container{
+    /* background-color: brown; */
+    flex-direction: column;
+    width: 550px;
+    text-align: center;
+    gap: 30px;
+    margin-top: 50px;
 }
 
-/* #endregion First_Sec */
+.buttons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.mac-button a,
+.browser-button a{
+    text-decoration: none;
+    color: inherit;
+}
+.mac-button{
+    background-color: white;
+    color: black;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px;
+}
+.browser-button{
+    background-color: var(--discord-dark);
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px;
+}
+
+/* #endregion Jumbo */
 
 .big_item {
     background-color: red;
