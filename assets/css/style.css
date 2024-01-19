@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+}
+
+#flex_container_header {
+    height: 50px;
+    display: flex;
+    /* background-color: yellowgreen; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex_item_header {
+    background-color: brown;
+    height: fit-content;
+    width: 50px;
+    height: 18px;
+}
+
+/* /end_site_header */
+#site_header{
+    background-color: yellowgreen;
+}
+
+.flex_container {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.big_item {
+    background-color: red;
+    width: 300px;
+    height: 250px;
+
+}
+
+.small_item {
+    background-color: blue;
+    width: 200px;
+    height: 250px;
+
+}
+
+#first_section {
+    background-color: aquamarine;
+}
+
+#first_flex_item {
+    background-color: brown;
+    height: fit-content;
+    width: 400px;
+    height: 250px;
+}
+
+/* end_first_section */
+
+#second_section {
+    background-color: bisque;
+}
+
+/* end_second_section */
+
+#third_section {
+    background-color: palegreen;
+}
+
+/* end_third_section */
+
+#fourth_section {
+    background-color: bisque;
+}
+
+/* end_fourth_section */
+
+#fifth_section {
+    background-color: palevioletred;
+}
+
+#fifth_flex_item {
+    background-color: brown;
+    height: fit-content;
+    width: 500px;
+    height: 300px;
+}
+
+/* end_fifth_section */
+/* end_site_main */
+
+.top_footer{
+    background-color: aquamarine;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_flex_container{
+    display: flex;
+    height: 350px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.big_text{
+    background-color: yellow;
+    flex-grow: 2;
+    height: 350px;
+}
+
+.small_text{
+    background-color: tomato;
+    flex-grow: 1;
+    border: 1px solid;
+    height: 350px;
+}
+
+/* end_top_footer */
+
+.bottom_footer{
+    background-color: peachpuff;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_footer{
+    display: flex;
+    height: 50px;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_img{
+    background-color: blue;
+    height: 1rem;
+    width: 1rem;
+}
+
+.button{
+    background-color: blue;
+}
