@@ -19,10 +19,13 @@
     margin: auto;
     height: 100%;
     padding: 1rem;
+    
 }
 
 .d-flex {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex_container {
@@ -55,6 +58,7 @@ nav {
 
 .logo {
     flex-grow: 1;
+    justify-content: flex-start;
 }
 
 ul {
@@ -124,21 +128,29 @@ li {
 
 /* #endregion Jumbo */
 
-.big_item {
-    background-color: red;
-    width: 300px;
-    height: 250px;
+/* #region First_Section */
+
+.first-section{
+    background-color: var(--discord-lighter);
 
 }
 
-.small_item {
-    background-color: blue;
-    width: 200px;
-    height: 250px;
-
+.img{
+    width: 70%;
 }
 
+.text{
+    width: 30%;
+}
 
+h2{
+    font-size: 40px
+}
+
+p{
+    padding-top: 10%;
+}
+/* #endregion First_Section */
 
 
 
