@@ -35,6 +35,11 @@
     text-align: center;
 }
 
+.d-flex-f{
+    display: flex;
+    justify-content: space-between;
+}
+
 .reverse {
     flex-direction: row-reverse;
 }
@@ -94,7 +99,6 @@ li {
 }
 
 .small-container{
-    /* background-color: brown; */
     flex-direction: column;
     width: 550px;
     text-align: center;
@@ -181,61 +185,43 @@ h3{
 /* #endregion Main */
 
 /* #region Footer */
-.top_footer {
-    background-color: aquamarine;
+
+#site_footer{
+    background-color: var(--discord-dark);
+}
+
+.column{
     display: flex;
-    height: 400px;
     justify-content: center;
-    align-items: center;
 }
 
-.top_flex_container {
+.col ul{
     display: flex;
-    height: 350px;
-    width: 500px;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 0.5rem;
+    padding: 0 20px;
 }
 
-.big_text {
-    background-color: yellow;
-    flex-grow: 2;
-    height: 350px;
+a{
+    text-decoration: none;
 }
 
-.small_text {
-    background-color: tomato;
-    flex-grow: 1;
-    border: 1px solid;
-    height: 350px;
+.titol{
+    color: #7289DA;
 }
 
-/* end_top_footer */
-
-.bottom_footer {
-    background-color: peachpuff;
-    display: flex;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
+.flag{
+    max-height: 1rem;
 }
 
-.center_footer {
-    display: flex;
-    height: 50px;
-    width: 500px;
-    justify-content: space-between;
-    align-items: center;
+a{
+    color: white;
 }
 
-.logo_img {
-    background-color: blue;
-    height: 1rem;
-    width: 1rem;
-}
-
-.button {
-    background-color: blue;
+.b-reg{
+    background-color: #7289DA;
+    color: white;
 }
 
 /* #endregion Footer */
