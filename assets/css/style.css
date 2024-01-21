@@ -18,8 +18,7 @@
     max-width: 1200px;
     margin: auto;
     height: 100%;
-    padding: 1rem;
-    
+    padding: 2rem;
 }
 
 .d-flex {
@@ -28,11 +27,12 @@
     align-items: center;
 }
 
-.flex_container {
+.d-flex-column{
     display: flex;
-    height: 400px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .reverse {
@@ -40,7 +40,7 @@
 }
 
 button {
-    padding: 0.25rem;
+    padding: 0.5rem;
     border-radius: 1rem;
     border-width: inherit;
 }
@@ -148,42 +148,36 @@ h2{
 }
 
 p{
-    padding-top: 10%;
+    padding-top: 2rem;
 }
 /* #endregion First_Section */
 
 
-
-#second_section {
-    background-color: bisque;
-}
-
 /* end_second_section */
 
-#third_section {
-    background-color: palegreen;
-}
 
 /* end_third_section */
 
-#fourth_section {
-    background-color: bisque;
+#adventure{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2rem;
+}
+
+.mac-button2{
+    background-color: #7289DA;
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px;
+}
+
+h3{
+    font-size: x-large;
 }
 
 /* end_fourth_section */
 
-#fifth_section {
-    background-color: palevioletred;
-}
-
-#fifth_flex_item {
-    background-color: brown;
-    height: fit-content;
-    width: 500px;
-    height: 300px;
-}
-
-/* end_fifth_section */
 /* #endregion Main */
 
 /* #region Footer */
