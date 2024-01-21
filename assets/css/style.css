@@ -156,11 +156,35 @@ p{
 }
 /* #endregion First_Section */
 
+.second-section{
+    background-color: var(--discord-light);
+}
 
+.wave{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    height: 100px
+    
+}
+
+.wave-img{
+    width: 100%;
+    margin: auto;
+}
+
+.wave-img-rot{
+    width: 100%;
+    transform: rotate(180deg);
+}
 /* end_second_section */
 
 
 /* end_third_section */
+
+.fourth-section{
+    background-color: var(--discord-light);
+}
 
 #adventure{
     background-image: url(../img/stars.svg);
