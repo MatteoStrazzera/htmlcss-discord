@@ -12,6 +12,10 @@
     --discord-lighter: white;
     --discord-dark: rgba(34, 39, 43, 1);
 }
+body {
+    margin: auto;
+    font-family: sans-serif;
+}
 
 .container {
     width: 80%;
@@ -81,6 +85,9 @@ li {
 .login {
     flex-grow: 1;
     justify-content: flex-end;
+}
+.login-btn{
+    color: black;
 }
 
 /* #endregion Header */
@@ -229,6 +236,7 @@ h3{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 .titol{
@@ -237,10 +245,6 @@ a{
 
 .flag{
     max-height: 1rem;
-}
-
-a{
-    color: white;
 }
 
 .b-reg{
