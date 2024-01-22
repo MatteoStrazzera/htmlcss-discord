@@ -91,6 +91,9 @@ li {
 }
 .login-btn{
     color: black;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+    padding: 5px;
 }
 
 /* #endregion Header */
@@ -256,6 +259,8 @@ a{
 .b-reg{
     background-color: #7289DA;
     color: white;
+    padding: 5px;
+    border-radius: 25px 25px 25px 25px;
 }
 
 /* #endregion Footer */
